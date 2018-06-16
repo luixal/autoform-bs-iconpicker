@@ -1,0 +1,7 @@
+<template name="afBsIconpicker">
+    {{#if renderAsButton}}
+        <button role="iconpicker" data-icon="{{value}}" {{atts}}></button>
+    {{else}}
+        <div role="iconpicker" data-icon="{{value}}" {{atts}}></div>
+    {{/if}}
+</template>
