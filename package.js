@@ -9,9 +9,8 @@ Package.describe({
 Package.onUse(function(api) {
   api.versionsFrom('1.4.2.6');
   api.use('ecmascript');
-  api.use('luixal:bs-iconpicker');
   api.use('aldeed:autoform@5.0.0');
-  api.use('templating');
+  api.use('templating@1.3.2');
 
   api.addFiles(
     [
