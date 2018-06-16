@@ -1,5 +1,4 @@
 Template.afBsIconpicker.onRendered(function() {
-    console.log(this);
     // get data from template data if present:
     let options = this.data.options || {};
     let _afId = this.data.atts.id;
